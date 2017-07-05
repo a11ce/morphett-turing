@@ -1,0 +1,15 @@
+;move to end of number
+0 1 * R *
+0 0 * R *
+
+;double
+0 _ 0 R 1
+
+;smile
+1 _ ☺ * ☺
+
+;move to start of number
+☺ 1 * L *
+☺ 0 * L *
+☺ ☺ * L *
+☺ _ ☺ * halt
